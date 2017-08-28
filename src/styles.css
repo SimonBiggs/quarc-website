@@ -1,0 +1,94 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/assets/fonts/material-design-icons/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(/assets/fonts/material-design-icons/MaterialIcons-Regular.woff2) format('woff2'),
+       url(/assets/fonts/material-design-icons/MaterialIcons-Regular.woff) format('woff'),
+       url(/assets/fonts/material-design-icons/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  /* src: url(/assets/material-design-icons/MaterialIcons-Regular.eot); */ /* For IE6-8 */
+  src: local('Roboto'),
+       local('Roboto-Regular'),
+       /*url(/assets/material-design-icons/MaterialIcons-Regular.woff2) format('woff2'),
+       url(/assets/material-design-icons/MaterialIcons-Regular.woff) format('woff'),*/
+       /*url(/assets/roboto-font/Roboto-Regular.otf) format('opentype'),*/
+       url(/assets/fonts/roboto/Roboto-Regular.ttf) format('truetype');
+}
+
+html {
+ font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+
+html, body, material-app, md-sidenav-container, .my-content {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+md-sidenav {
+  width: 250px;
+  padding: 10px 40px;
+  border-right: 1px solid #e0e0e0;
+}
+
+/*
+
+
+.mat-sidenav {
+
+}
+
+.mat-sidenav-container {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  margin-top: 64px;
+}
+
+a {
+  word-wrap: break-word;
+}
+
+.fixed-toolbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+} */

@@ -1,0 +1,16 @@
+<app-navbar class="mat-elecation-z6"></app-navbar>
+
+<md-sidenav-container #container>
+
+  <md-sidenav mode="side" opened="true" #sidenav>
+    <h2>Quarc</h2>
+    <md-nav-list>
+      <a md-list-item routerLink="/home"
+      routerLinkActive="active" href>Home</a>
+    </md-nav-list>
+  </md-sidenav>
+
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+</md-sidenav-container>
